@@ -9,7 +9,6 @@ from config import (
     ALIVE_NAME,
     BOT_USERNAME,
     GROUP_SUPPORT,
-    OWNER_USERNAME,
     UPDATES_CHANNEL,
 )
 from driver.decorators import check_blacklist
@@ -91,7 +90,7 @@ async def start_(c: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/levina-lab/video-stream"
+                        "💙OWNER💙", url=f"https://t.me/Ti_amo_F_amore_mio_2912"
                     )
                 ],
             ]
