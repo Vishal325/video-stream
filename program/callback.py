@@ -11,7 +11,6 @@ from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMa
 from config import (
     BOT_USERNAME,
     GROUP_SUPPORT,
-    OWNER_USERNAME,
     UPDATES_CHANNEL,
     SUDO_USERS,
     OWNER_ID,
@@ -41,7 +40,7 @@ async def start_set(_, query: CallbackQuery):
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="user_guide")],
                 [
                     InlineKeyboardButton("📚 Commands", callback_data="command_list"),
-                    InlineKeyboardButton("❤ Donate", url=f"https://t.me/{OWNER_USERNAME}"),
+                    InlineKeyboardButton("🌐 Source Code", url="https://i.ibb.co/HBMTZFB/IMG-20220215-153743-718.jpg"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -53,7 +52,7 @@ async def start_set(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/levina-lab/video-stream"
+                        "💙OWNER💙", url=f"https://t.me/Ti_amo_F_amore_mio_2912"
                     )
                 ],
             ]
