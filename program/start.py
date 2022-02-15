@@ -78,7 +78,7 @@ async def start_(c: Client, message: Message):
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="user_guide")],
                 [
                     InlineKeyboardButton("📚 Commands", callback_data="command_list"),
-                    InlineKeyboardButton("❤️ Donate", url=f"https://t.me/{OWNER_USERNAME}"),
+                    InlineKeyboardButton("🌐 Source Code", url="https://i.ibb.co/HBMTZFB/IMG-20220215-153743-718.jpg"),
                 ],
                 [
                     InlineKeyboardButton(
